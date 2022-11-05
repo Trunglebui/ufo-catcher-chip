@@ -1,8 +1,10 @@
+basic.showString("on")
 led.enable(false)
 let X = 180
 let Y = 100
 ModuleWorld_PWM.Servo(ModuleWorld_PWM.mwServoNum.P1, X)
 ModuleWorld_PWM.Servo(ModuleWorld_PWM.mwServoNum.P2, Y)
+basic.showIcon(IconNames.Heart)
 basic.forever(function () {
     ModuleWorld_PWM.Servo(ModuleWorld_PWM.mwServoNum.P1, X)
     ModuleWorld_PWM.Servo(ModuleWorld_PWM.mwServoNum.P2, Y)
