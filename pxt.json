@@ -1,0 +1,27 @@
+{
+    "name": "UFO-catcher-chip",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "TM1650": "github:makecode-extensions/tm1650#v1.1.0",
+        "Module-World": "github:YahboomTechnology/Module-World#4bad43a8128f8529d911b0033e7062d7972a5cf4"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
